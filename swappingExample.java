@@ -2,7 +2,7 @@ public class swappingExample{
 	public static void main (String [] args){
 		int a=30;
 		int b=45;
-		system.out.println("Before Swaping, a ="+a+" and b = "+b);
+		System.out.println("Before Swaping, a ="+a+" and b = "+b);
 
 		//Invoke the swap method
 		swapFunction(a,b);
