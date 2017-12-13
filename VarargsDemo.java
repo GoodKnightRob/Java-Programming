@@ -10,10 +10,10 @@ public class VarargsDemo{
 			System.out.println("No Argument passed");
 			return;
 		}
-		double result = numbers[0];
+		double result = numbers[0];// sets the  initial result to be the first element in the array
 		for (int i=1; i<numbers.length;i++ ){
-			if (numbers[i]>result) {
-				result = numbers[i];
+			if (numbers[i]>result) {// compare current element with result
+				result = numbers[i];// saves element in result if the element is greater
 			}
 		}
 		System.out.println("The max value is "+ result);
